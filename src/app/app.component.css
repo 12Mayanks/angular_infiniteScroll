@@ -1,0 +1,27 @@
+.content {
+    height: calc(90vh - 90px);
+    overflow: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    box-shadow:  1px 1px 10px rgb(0, 0, 0);
+}
+
+.spinner-item {
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+
+.ng-container {
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    padding: 2rem;
+    box-shadow: 10px 2px 2px 2px solid rgb(0, 0, 0);
+
+}
+
+/* .example-card {
+    max-width: 400px;
+} */
